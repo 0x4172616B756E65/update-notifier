@@ -1,0 +1,1 @@
+/home/kether/projects/toolbox/arch-update-reminder/update-run.sh

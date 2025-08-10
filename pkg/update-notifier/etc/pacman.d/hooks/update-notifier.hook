@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Records the date of the last full system upgrade
+When = PostTransaction
+Exec = /usr/bin/mark-update-run

@@ -1,0 +1,5 @@
+[Unit]
+Description=Send notification if the system hasn't been updated recently
+
+[Service]
+ExecStart=/usr/bin/update-notifier
